@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Assignment – All Programs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+        h2 {
+            color: #333;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-left: 4px solid #333;
+            overflow-x: auto;
+        }
+        hr {
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>HTML ASSIGNMENT – PROGRAMS WITH ANSWERS</h1>
+<p><strong>Name:</strong> Keerthana</p>
+<p><strong>Subject:</strong> HTML</p>
+
+<hr>
+
+<h2>1. Basic Paragraph</h2>
+<pre>
+&lt;p&gt;This is my first paragraph in HTML.&lt;/p&gt;
+</pre>
+
+<h2>2. Multiple Paragraphs</h2>
+<pre>
+&lt;p&gt;HTML is used to structure web pages.&lt;/p&gt;
+&lt;p&gt;CSS is used to style web pages.&lt;/p&gt;
+&lt;p&gt;JavaScript adds interactivity.&lt;/p&gt;
+</pre>
+
+<h2>3. Line Break</h2>
+<pre>
+Hello&lt;br&gt;World
+</pre>
+
+<h2>4. Bold Text</h2>
+<pre>
+&lt;b&gt;This is bold text&lt;/b&gt;
+</pre>
+
+<h2>5. Strong Text</h2>
+<pre>
+&lt;strong&gt;Important text&lt;/strong&gt;
+</pre>
+
+<h2>6. Italic Text</h2>
+<pre>
+&lt;i&gt;Italic text&lt;/i&gt;
+</pre>
+
+<h2>7. Emphasized Text</h2>
+<pre>
+&lt;em&gt;Emphasized text&lt;/em&gt;
+</pre>
+
+<h2>8. Underlined Text</h2>
+<pre>
+&lt;u&gt;Underlined text&lt;/u&gt;
+</pre>
+
+<h2>9. Marked Text</h2>
+<pre>
+&lt;mark&gt;Highlighted text&lt;/mark&gt;
+</pre>
+
+<h2>10. Small Text</h2>
+<pre>
+&lt;small&gt;Smaller text&lt;/small&gt;
+</pre>
+
+<h2>11. Deleted Text</h2>
+<pre>
+&lt;del&gt;Deleted text&lt;/del&gt;
+</pre>
+
+<h2>12. Inserted Text</h2>
+<pre>
+&lt;ins&gt;Inserted text&lt;/ins&gt;
+</pre>
+
+<h2>13. Subscript</h2>
+<pre>
+H&lt;sub&gt;2&lt;/sub&gt;O
+</pre>
+
+<h2>14. Superscript</h2>
+<pre>
+2&lt;sup&gt;3&lt;/sup&gt; = 8
+</pre>
+
+<h2>15. Horizontal Rule</h2>
+<pre>
+&lt;hr&gt;
+</pre>
+
+<h2>16. Link</h2>
+<pre>
+&lt;a href="https://www.google.com"&gt;Visit Google&lt;/a&gt;
+</pre>
+
+<h2>17. Open Link in New Tab</h2>
+<pre>
+&lt;a href="https://www.wikipedia.org" target="_blank"&gt;Wikipedia&lt;/a&gt;
+</pre>
+
+<h2>18. Image</h2>
+<pre>
+&lt;img src="image.jpg" alt="Sample Image" width="200"&gt;
+</pre>
+
+<h2>19. Math Formula</h2>
+<pre>
+a&lt;sup&gt;2&lt;/sup&gt; + b&lt;sup&gt;2&lt;/sup&gt; = c&lt;sup&gt;2&lt;/sup&gt;
+</pre>
+
+<h2>20. Chemistry Formula</h2>
+<pre>
+CO&lt;sub&gt;2&lt;/sub&gt; + H&lt;sub&gt;2&lt;/sub&gt;O
+</pre>
+
+<h2>21. Combination of Formatting Tags</h2>
+<pre>
+&lt;b&gt;Bold&lt;/b&gt; &lt;i&gt;Italic&lt;/i&gt; &lt;mark&gt;Mark&lt;/mark&gt;
+&lt;del&gt;Old&lt;/del&gt; &lt;ins&gt;New&lt;/ins&gt;
+</pre>
+
+<h2>22. Email Link</h2>
+<pre>
+&lt;a href="mailto:info@example.com"&gt;Send Email&lt;/a&gt;
+</pre>
+
+<h2>23. Abbreviation</h2>
+<pre>
+&lt;abbr title="World Health Organization"&gt;WHO&lt;/abbr&gt;
+</pre>
+
+<h2>24. Quotation</h2>
+<pre>
+&lt;q&gt;Practice makes perfect&lt;/q&gt;
+</pre>
+
+<h2>25. All Tags Example</h2>
+<pre>
+&lt;b&gt;HTML&lt;/b&gt; is &lt;em&gt;easy&lt;/em&gt; and &lt;mark&gt;important&lt;/mark&gt;
+H&lt;sub&gt;2&lt;/sub&gt;O , x&lt;sup&gt;2&lt;/sup&gt;
+</pre>
+
+<hr>
+
+<p><strong>END OF HTML ASSIGNMENT</strong></p>
+
+</body>
+</html>
