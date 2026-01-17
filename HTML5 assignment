@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML5 – All Programs</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+h2 { background: #f2f2f2; padding: 8px; }
+canvas, svg, video { margin-top: 10px; }
+</style>
+</head>
+
+<body>
+
+<h1>HTML5 – ALL PROGRAMS</h1>
+
+<!-- 1 -->
+<section>
+<h2>1. Basic Header and Footer</h2>
+<header><h3>My Website</h3></header>
+<footer><p>© 2026 My Website</p></footer>
+</section>
+
+<!-- 2 -->
+<section>
+<h2>2. Header, Nav, Main, Footer</h2>
+<header><h3>Site Title</h3></header>
+<nav>
+<a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
+</nav>
+<main><p>Welcome to the main content area.</p></main>
+<footer><p>Footer Information</p></footer>
+</section>
+
+<!-- 3 -->
+<section>
+<h2>3. Article with Sections</h2>
+<article>
+<header><h3>Article Title</h3><p>By Author Name</p></header>
+<section><p>Introduction section of the article.</p></section>
+<section><p>Details section of the article.</p></section>
+<footer><p>Published on Jan 8, 2026</p></footer>
+</article>
+</section>
+
+<!-- 4 -->
+<section>
+<h2>4. Sidebar with Aside</h2>
+<main>
+<section>
+<h3>Main Content</h3>
+<p>This is the central part of the page.</p>
+</section>
+<aside>
+<h3>Sidebar</h3>
+<p>Extra links or ads here.</p>
+</aside>
+</main>
+</section>
+
+<!-- 5 -->
+<section>
+<h2>5. Figure with Figcaption</h2>
+<figure>
+<img src="https://via.placeholder.com/200" alt="Sample Image">
+<figcaption>This is a sample image caption.</figcaption>
+</figure>
+</section>
+
+<!-- 6 -->
+<section>
+<h2>6. Multiple Articles</h2>
+<article><h3>News Story 1</h3><p>Details of the first story.</p></article>
+<article><h3>News Story 2</h3><p>Details of the second story.</p></article>
+</section>
+
+<!-- 7 -->
+<section>
+<h2>7. Semantic Blog Layout</h2>
+<header><h3>My Blog</h3></header>
+<nav>
+<a href="#">Home</a> | <a href="#">Posts</a> | <a href="#">About</a>
+</nav>
+<main>
+<article><h3>Blog Post Title</h3><p>Blog post content goes here.</p></article>
+</main>
+<footer><p>© 2026 My Blog</p></footer>
+</section>
+
+<!-- 8 -->
+<section>
+<h2>8. Contact Page with Address</h2>
+<address>
+<p>Email: contact@example.com</p>
+<p>Phone: +91-1234567890</p>
+</address>
+</section>
+
+<!-- 9 -->
+<section>
+<h2>9. Semantic Layout with Sections</h2>
+<section><h3>About Us</h3><p>Information about the company.</p></section>
+<section><h3>Services</h3><p>Details of services offered.</p></section>
+<section><h3>Contact</h3><p>Contact details here.</p></section>
+</section>
+
+<!-- 10 -->
+<section>
+<h2>10. Full Semantic Page Layout</h2>
+<header><h3>My Portfolio</h3></header>
+<nav>
+<a href="#">Home</a> | <a href="#">Projects</a> | <a href="#">Contact</a>
+</nav>
+<main>
+<article><h3>Project 1</h3><p>Description of project 1.</p></article>
+<article><h3>Project 2</h3><p>Description of project 2.</p></article>
+</main>
+<aside>
+<h3>Quick Links</h3>
+<a href="#">GitHub</a><br>
+<a href="#">LinkedIn</a>
+</aside>
+<footer><p>© 2026 My Portfolio</p></footer>
+</section>
+
+<!-- 11 -->
+<section>
+<h2>11. Canvas – Rectangle</h2>
+<canvas id="rectCanvas" width="200" height="100" style="border:1px solid black;"></canvas>
+<script>
+var c1 = document.getElementById("rectCanvas");
+var ctx1 = c1.getContext("2d");
+ctx1.fillStyle = "blue";
+ctx1.fillRect(20,20,150,60);
+</script>
+</section>
+
+<!-- 12 -->
+<section>
+<h2>12. Canvas – Circle</h2>
+<canvas id="circleCanvas" width="200" height="200" style="border:1px solid black;"></canvas>
+<script>
+var c2 = document.getElementById("circleCanvas");
+var ctx2 = c2.getContext("2d");
+ctx2.beginPath();
+ctx2.arc(100,100,50,0,2*Math.PI);
+ctx2.fillStyle = "red";
+ctx2.fill();
+</script>
+</section>
+
+<!-- 13 -->
+<section>
+<h2>13. Canvas – Line</h2>
+<canvas id="lineCanvas" width="200" height="200" style="border:1px solid black;"></canvas>
+<script>
+var c3 = document.getElementById("lineCanvas");
+var ctx3 = c3.getContext("2d");
+ctx3.moveTo(20,20);
+ctx3.lineTo(180,180);
+ctx3.stroke();
+</script>
+</section>
+
+<!-- 14 -->
+<section>
+<h2>14. Canvas – Text</h2>
+<canvas id="textCanvas" width="300" height="100" style="border:1px solid black;"></canvas>
+<script>
+var c4 = document.getElementById("textCanvas");
+var ctx4 = c4.getContext("2d");
+ctx4.font = "30px Arial";
+ctx4.fillText("Hello Canvas!",50,50);
+</script>
+</section>
+
+<!-- 15 -->
+<section>
+<h2>15. SVG – Rectangle</h2>
+<svg width="200" height="100">
+<rect width="150" height="80" x="25" y="10" fill="green" stroke="black"/>
+</svg>
+</section>
+
+<!-- 16 -->
+<section>
+<h2>16. SVG – Circle</h2>
+<svg width="200" height="200">
+<circle cx="100" cy="100" r="50" fill="orange" stroke="black"/>
+</svg>
+</section>
+
+<!-- 17 -->
+<section>
+<h2>17. SVG – Line</h2>
+<svg width="200" height="200">
+<line x1="20" y1="20" x2="180" y2="180" stroke="blue" stroke-width="2"/>
+</svg>
+</section>
+
+<!-- 18 -->
+<section>
+<h2>18. Audio Embedding</h2>
+<audio controls>
+<source src="sample.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+</section>
+
+<!-- 19 -->
+<section>
+<h2>19. Video Embedding</h2>
+<video width="320" height="240" controls>
+<source src="sample.mp4" type="video/mp4">
+Your browser does not support video.
+</video>
+</section>
+
+<!-- 20 -->
+<section>
+<h2>20. SVG with Text</h2>
+<svg width="300" height="100">
+<text x="50" y="50" font-size="30" fill="purple">Hello SVG!</text>
+</svg>
+</section>
+
+</body>
+</html>
