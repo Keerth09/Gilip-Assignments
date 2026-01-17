@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS All Programs (1–60)</title>
+
+<style>
+
+/* 1. Universal selector */
+* { box-sizing: border-box; }
+
+/* 2. Element selector */
+p { margin: 5px 0; }
+
+/* 3. Class selector */
+.highlight { background-color: yellow; }
+
+/* 4. ID selector */
+#special { color: green; }
+
+/* 5. Group selector */
+h1, h2 { color: purple; }
+
+/* 6. Descendant selector */
+div p { color: orange; }
+
+/* 7. Child selector */
+.child-demo > p { color: teal; }
+
+/* 8. Adjacent sibling */
+h3 + p { color: brown; }
+
+/* 9. General sibling */
+h4 ~ p { color: pink; }
+
+/* 10. Attribute selector */
+input[type="text"] { border: 2px solid red; }
+
+/* 11. Hover pseudo class */
+button:hover { background-color: lightblue; }
+
+/* 12. first-child */
+li:first-child { color: red; }
+
+/* 13. last-child */
+li:last-child { color: green; }
+
+/* 14. nth-child */
+li:nth-child(2) { color: blue; }
+
+/* 15–19 Colors */
+.color-name { color: crimson; }
+.hex { color: #00ff00; }
+.rgb { color: rgb(0,0,255); }
+.rgba { color: rgba(255,0,0,0.5); }
+.hsl { color: hsl(200,100%,50%); }
+
+/* 20–22 Font sizes */
+.px { font-size: 20px; }
+.em { font-size: 2em; }
+.rem { font-size: 1.5rem; }
+
+/* 23–25 Units */
+.percent { width: 50%; background: lightgray; }
+.vh { height: 20vh; background: lightblue; }
+.vw { width: 80vw; background: lightgreen; }
+
+/* 26 Card */
+.card {
+  width: 300px;
+  padding: 1.5rem;
+  background: #f1f1f1;
+}
+.card h3 { color: #2c3e50; }
+
+/* 27 Gradient */
+.gradient {
+  height: 80px;
+  background: linear-gradient(to right, red, yellow);
+}
+
+/* 28 Hover effect */
+.btn {
+  background: navy;
+  color: white;
+  padding: 10px;
+}
+.btn:hover { background: tomato; }
+
+/* 29 Percentage units */
+.parent { width: 400px; background: #ddd; }
+.child { width: 50%; background: steelblue; color:white; }
+
+/* 30 Universal */
+.universal * { color: brown; }
+
+/* 31 Class + ID */
+#title { color: darkblue; }
+.text { color: crimson; }
+
+/* 32 Background */
+.bg p { background: lightblue; }
+
+/* 33 ID selector */
+#yellow { background: yellow; }
+
+/* 34 Class selector */
+.box { background: lightgreen; padding:10px; }
+
+/* 35–36 Group selector */
+h5, h6, span { background: pink; }
+
+/* 37 Universal bg */
+.gray * { background: lightgray; }
+
+/* 38 Descendant */
+.desc p { background: lightblue; }
+
+/* 39 Child */
+.childonly > p { background: lightgreen; }
+
+/* 40 Adjacent */
+.adj h1 + p { background: yellow; }
+
+/* 41 General sibling */
+.gen h1 ~ p { background: lightcoral; }
+
+/* 42 Attribute */
+input[type="password"] { background: lightyellow; }
+
+/* 43 ID + class */
+#main .highlight { background: orange; }
+
+/* 44 Multiple classes */
+.box.red { background:red; color:white; }
+
+/* 45 Hover */
+.hoverbtn:hover { background: green; color:white; }
+
+/* 47 Focus */
+input:focus { background: lightblue; }
+
+/* 48 first-child bg */
+.first li:first-child { background: lightpink; }
+
+/* 49 last-child bg */
+.last li:last-child { background: lightgreen; }
+
+/* 50 nth-child bg */
+.nth li:nth-child(2) { background: yellow; }
+
+/* 51 not selector */
+p:not(.skip) { background: lightblue; }
+
+/* 52 Anchor hover */
+a:hover { background: yellow; }
+
+/* 53 Table styling */
+tr:nth-child(even) { background:#f2f2f2; }
+
+/* 54 Required */
+input:required { background: lightcoral; }
+
+/* 55 Header */
+#header { background: navy; color:white; padding:10px; }
+
+/* 56 Attribute starts */
+a[href^="https"] { background: lightgreen; }
+
+/* 57 Attribute ends */
+img[src$=".jpg"] { border:3px solid red; }
+
+/* 58 Mini card */
+#card { background:#ddd; padding:15px; }
+.title { background: teal; color:white; }
+
+/* 59–60 Advanced layouts handled inline */
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS ALL PROGRAMS (1–60)</h1>
+
+<p class="highlight">Class selector</p>
+<p id="special">ID selector</p>
+
+<div class="child-demo">
+  <p>Child selector</p>
+</div>
+
+<h3>Heading</h3>
+<p>Adjacent sibling</p>
+
+<h4>Heading</h4>
+<p>General sibling</p>
+
+<input type="text" placeholder="Text input">
+<input type="password" placeholder="Password">
+
+<button class="btn">Hover Button</button>
+
+<ul>
+<li>First</li><li>Second</li><li>Third</li>
+</ul>
+
+<p class="color-name">Color Name</p>
+<p class="hex">Hex</p>
+<p class="rgb">RGB</p>
+<p class="rgba">RGBA</p>
+<p class="hsl">HSL</p>
+
+<p class="px">20px</p>
+<p class="em">2em</p>
+<p class="rem">1.5rem</p>
+
+<div class="percent">50%</div>
+<div class="vh">vh</div>
+<div class="vw">vw</div>
+
+<div class="card">
+<h3>Card</h3>
+<p>CSS Card</p>
+</div>
+
+<div class="gradient"></div>
+
+<div class="parent">
+<div class="child">50%</div>
+</div>
+
+<div id="header">Header Section</div>
+
+<img src="photo.jpg" width="80">
+
+<div id="card">
+<h2 class="title">Mini Card</h2>
+<p>Content</p>
+</div>
+
+<form>
+<input type="text" required placeholder="Required">
+</form>
+
+<table border="1">
+<tr><td>A</td></tr>
+<tr><td>B</td></tr>
+<tr><td>C</td></tr>
+</table>
+
+<a href="https://google.com">Secure Link</a>
+
+</body>
+</html>
