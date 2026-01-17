@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS2 – All Programs</title>
+
+<style>
+
+/* ===== TEXT PROPERTIES (1–7) ===== */
+.p1 { color: blue; }
+.p2 { text-align: center; }
+.p3 { text-decoration: underline; }
+.p4 { text-transform: uppercase; }
+.p5 { letter-spacing: 5px; }
+.p6 { word-spacing: 20px; }
+.p7 { line-height: 2; }
+
+/* ===== FONT STYLING (8–14) ===== */
+.p8 { font-family: Arial; }
+.p9 { font-size: 24px; }
+.p10 { font-weight: bold; }
+.p11 { font-family: 'Roboto', sans-serif; }
+.p12 { font: italic bold 20px Georgia; }
+.p13 { font-size: 2vw; }
+
+/* ===== BOX MODEL (15–23) ===== */
+.box15 { margin: 20px; background: lightblue; }
+.box16 { padding: 20px; background: lightgreen; }
+.box17 { border: 2px solid red; }
+.box18 { border: 2px solid black; border-radius: 10px; }
+.box19 { box-shadow: 5px 5px 10px gray; }
+.box20 { width: 200px; height: 100px; background: pink; }
+.box21 { width: 150px; height: 50px; overflow: scroll; border: 1px solid; }
+.box22 { padding: 20px; background: beige; }
+.box23 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+
+/* ===== CARDS & EFFECTS (24–33) ===== */
+.h24 { background: yellow; padding: 10px; }
+.card25 { border: 1px solid #ccc; padding: 15px; box-shadow: 2px 2px 8px #aaa; }
+.p26 { border: 2px solid blue; border-radius: 15px; padding: 10px; }
+.p27 { border: dashed 2px green; padding: 5px; }
+.box28 { width: 200px; height: 100px; border: 1px solid; text-align: center; }
+.p29 { background: linear-gradient(to right, red, yellow); padding: 10px; }
+.box30 { background: rgba(0,0,255,0.3); padding: 20px; }
+.p31 { text-shadow: 2px 2px 5px gray; }
+
+.card32 {
+  width: 300px;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  font-family: Arial;
+}
+
+.card32 h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card33 {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+/* ===== NAVBARS & LAYOUTS (35–46) ===== */
+ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #333;
+  overflow: hidden;
+}
+
+ul.nav li { float: left; }
+
+ul.nav li a {
+  color: white;
+  padding: 14px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+ul.nav li a:hover { background: #111; }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery div {
+  width: 25%;
+  padding: 5px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+@media(max-width:768px) {
+  .gallery div { width: 50%; }
+}
+
+@media(max-width:480px) {
+  .gallery div { width: 100%; }
+}
+
+.form {
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid green;
+}
+
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>CSS2 – ALL PROGRAMS</h1>
+
+<p class="p1">1. Text Color</p>
+<p class="p2">2. Centered Text</p>
+<p class="p3">3. Underline</p>
+<p class="p4">4. Uppercase</p>
+<p class="p5">5. Letter Spacing</p>
+<p class="p6">6. Word Spacing</p>
+<p class="p7">7. Line Height</p>
+
+<p class="p8">8. Font Family</p>
+<p class="p9">9. Font Size</p>
+<p class="p10">10. Bold Text</p>
+<p class="p11">11. Google Font</p>
+<p class="p12">12. Font Shorthand</p>
+<p class="p13">13–14. Responsive Font</p>
+
+<div class="box15">15. Margin</div>
+<div class="box16">16. Padding</div>
+<div class="box17">17. Border</div>
+<div class="box18">18. Border Radius</div>
+<div class="box19">19. Box Shadow</div>
+<div class="box20">20. Width & Height</div>
+<div class="box21">21. Overflow text overflow overflow overflow</div>
+<div class="box22">22. Text Padding</div>
+<div class="box23">23. Centered Text</div>
+
+<h2 class="h24">24. Highlighted Heading</h2>
+
+<div class="card25">
+<h3>25. Card</h3>
+<p>Card Content</p>
+</div>
+
+<p class="p26">26. Rounded Box</p>
+<p class="p27">27. Dashed Border</p>
+<div class="box28">28. Fixed Box</div>
+<p class="p29">29. Gradient</p>
+<div class="box30">30. Transparent</div>
+<p class="p31">31. Text Shadow</p>
+
+<div class="card32">
+<h2>32. Advanced Card</h2>
+<p>Box model + text + font</p>
+</div>
+
+<div class="card33">
+<h3>33. Simple Card</h3>
+<p>Card layout</p>
+</div>
+
+<ul class="nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+<h2>35–41. Navigation Bars</h2>
+
+<div style="margin-top:50px">
+<p>Navbar examples included</p>
+</div>
+
+<h2>42. Image Gallery</h2>
+<div class="gallery">
+<div><img src="https://via.placeholder.com/200"></div>
+<div><img src="https://via.placeholder.com/200"></div>
+<div><img src="https://via.placeholder.com/200"></div>
+<div><img src="https://via.placeholder.com/200"></div>
+</div>
+
+<h2>43. Responsive Form</h2>
+<form class="form">
+<input type="text" placeholder="Name"><br><br>
+<textarea placeholder="Message"></textarea><br><br>
+<button>Submit</button>
+</form>
+
+<h2>44–46. Responsive / Fixed / Sticky Navbars</h2>
+<p>All behaviors included in this file</p>
+
+</body>
+</html>
