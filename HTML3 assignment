@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML All 50 Programs</title>
+<style>
+  body { font-family: Arial; }
+  h2 { background:#eee; padding:6px; }
+  table { border-collapse: collapse; margin-bottom:20px; }
+  th, td { border:1px solid #000; padding:6px; }
+</style>
+</head>
+<body>
+
+<!-- ================= TABLE PROGRAMS ================= -->
+
+<h2>1. Basic Table</h2>
+<table>
+<tr><th>Name</th><th>Age</th></tr>
+<tr><td>Asha</td><td>22</td></tr>
+<tr><td>Ravi</td><td>25</td></tr>
+</table>
+
+<h2>2. Table with Caption</h2>
+<table>
+<caption>Student Marks</caption>
+<tr><th>Name</th><th>Marks</th></tr>
+<tr><td>Asha</td><td>90</td></tr>
+<tr><td>Ravi</td><td>85</td></tr>
+</table>
+
+<h2>3. Table with Rowspan</h2>
+<table>
+<tr><th rowspan="2">Name</th><th colspan="2">Scores</th></tr>
+<tr><th>Math</th><th>Science</th></tr>
+<tr><td>Asha</td><td>90</td><td>85</td></tr>
+</table>
+
+<h2>4. Table with Colspan</h2>
+<table>
+<tr><th colspan="3">Employee Info</th></tr>
+<tr><td>ID</td><td>Name</td><td>Department</td></tr>
+<tr><td>101</td><td>Ravi</td><td>HR</td></tr>
+</table>
+
+<h2>5. Table with thead, tbody, tfoot</h2>
+<table>
+<thead><tr><th>Product</th><th>Price</th></tr></thead>
+<tbody><tr><td>Book</td><td>$10</td></tr></tbody>
+<tfoot><tr><td>Total</td><td>$10</td></tr></tfoot>
+</table>
+
+<h2>6. Styled Table</h2>
+<table>
+<tr><th>City</th><th>Country</th></tr>
+<tr><td>Delhi</td><td>India</td></tr>
+<tr><td>Paris</td><td>France</td></tr>
+</table>
+
+<h2>7. Alternate Row Colors</h2>
+<table>
+<tr><th>Item</th><th>Price</th></tr>
+<tr><td>Pen</td><td>$1</td></tr>
+<tr><td>Pencil</td><td>$0.5</td></tr>
+</table>
+
+<h2>8. Table with Image</h2>
+<table>
+<tr><th>Product</th><th>Image</th></tr>
+<tr><td>Phone</td><td><img src="https://via.placeholder.com/50"></td></tr>
+</table>
+
+<h2>9. Table with Link</h2>
+<table>
+<tr><th>Website</th><th>Link</th></tr>
+<tr><td>Google</td><td><a href="https://google.com">Visit</a></td></tr>
+</table>
+
+<h2>10. Complex Table</h2>
+<table>
+<tr><th>Course</th><th>Duration</th><th>Fee</th></tr>
+<tr><td>HTML</td><td>1 Month</td><td>$100</td></tr>
+<tr><td>CSS</td><td>1 Month</td><td>$120</td></tr>
+<tr><td>JS</td><td>2 Months</td><td>$200</td></tr>
+</table>
+
+<!-- ================= FORM PROGRAMS ================= -->
+
+<h2>11. Basic Form</h2>
+<form>
+Name: <input type="text">
+<button>Submit</button>
+</form>
+
+<h2>12. Login Form</h2>
+<form>
+Username: <input type="text"><br>
+Password: <input type="password"><br>
+<button>Login</button>
+</form>
+
+<h2>13. Registration Form</h2>
+<form>
+Name: <input type="text"><br>
+Email: <input type="email"><br>
+Password: <input type="password"><br>
+<button>Register</button>
+</form>
+
+<h2>14. Radio Buttons</h2>
+<form>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+</form>
+
+<h2>15. Checkboxes</h2>
+<form>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JS
+</form>
+
+<h2>16. Dropdown</h2>
+<form>
+<select>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+</select>
+</form>
+
+<h2>17. Textarea</h2>
+<form>
+<textarea rows="4" cols="30"></textarea>
+</form>
+
+<h2>18. File Upload</h2>
+<form>
+<input type="file">
+</form>
+
+<h2>19. Date & Number</h2>
+<form>
+<input type="date">
+<input type="number">
+</form>
+
+<h2>20. Contact Form</h2>
+<form>
+<input type="text" placeholder="Name"><br>
+<input type="email" placeholder="Email"><br>
+<textarea placeholder="Message"></textarea><br>
+<button>Send</button>
+</form>
+
+<h2>21. Student Registration</h2>
+<form>
+<input type="text" placeholder="Name">
+<button>Register</button>
+</form>
+
+<h2>22. Login Form in Table</h2>
+<form>
+<table>
+<tr><td>User</td><td><input type="text"></td></tr>
+<tr><td>Pass</td><td><input type="password"></td></tr>
+<tr><td colspan="2"><button>Login</button></td></tr>
+</table>
+</form>
+
+<h2>23. Employee Table</h2>
+<table>
+<tr><th>ID</th><th>Name</th><th>Dept</th></tr>
+<tr><td>101</td><td>Ravi</td><td>HR</td></tr>
+<tr><td>102</td><td>Anita</td><td>IT</td></tr>
+</table>
+
+<h2>24. Feedback Form</h2>
+<form>
+<textarea></textarea>
+<button>Submit</button>
+</form>
+
+<h2>25. Course List</h2>
+<table>
+<tr><th>Course</th><th>Fees</th></tr>
+<tr><td>HTML</td><td>2000</td></tr>
+<tr><td>CSS</td><td>2500</td></tr>
+</table>
+
+<h2>26. Job Application</h2>
+<form>
+<input type="text" placeholder="Name">
+<input type="file">
+<button>Apply</button>
+</form>
+
+<h2>27. Timetable</h2>
+<table>
+<tr><th>Day</th><th>9-10</th></tr>
+<tr><td>Mon</td><td>HTML</td></tr>
+</table>
+
+<h2>28. Contact Us</h2>
+<form>
+<input type="text">
+<textarea></textarea>
+</form>
+
+<h2>29. Product Order</h2>
+<form>
+<select><option>Laptop</option></select>
+<input type="number">
+</form>
+
+<h2>30. Report Card</h2>
+<table>
+<tr><th>Subject</th><th>Marks</th></tr>
+<tr><td>Math</td><td>85</td></tr>
+</table>
+
+<h2>31. Basic Login</h2>
+<form>
+<input type="text">
+<input type="password">
+</form>
+
+<h2>32. Email Registration</h2>
+<form>
+<input type="email">
+<input type="password">
+</form>
+
+<h2>33. Number Input</h2>
+<form><input type="number" min="18" max="60"></form>
+
+<h2>34. Radio Group</h2>
+<form>
+<input type="radio">Male
+<input type="radio">Female
+</form>
+
+<h2>35. Checkbox Group</h2>
+<form>
+<input type="checkbox">HTML
+<input type="checkbox">CSS
+</form>
+
+<h2>36. Dropdown Menu</h2>
+<form>
+<select><option>India</option></select>
+</form>
+
+<h2>37. Text Area</h2>
+<textarea></textarea>
+
+<h2>38. File Upload</h2>
+<input type="file">
+
+<h2>39. Date Picker</h2>
+<input type="date">
+
+<h2>40. Color Picker</h2>
+<input type="color">
+
+<h2>41. Range Slider</h2>
+<input type="range">
+
+<h2>42. Search Box</h2>
+<input type="search">
+
+<h2>43. Hidden Field</h2>
+<form><input type="hidden" value="123"></form>
+
+<h2>44. Reset Button</h2>
+<form>
+<input type="text">
+<input type="reset">
+</form>
+
+<h2>45. Form Validation</h2>
+<form>
+<input type="email" required>
+</form>
+
+<h2>46. Settings Form</h2>
+<form>
+<input type="text" value="USER-99821" readonly>
+</form>
+
+<h2>47. Contact Message</h2>
+<form><textarea></textarea></form>
+
+<h2>48. Survey</h2>
+<form>
+<input type="radio">Summer
+<input type="radio">Winter
+</form>
+
+<h2>49. Interests</h2>
+<form>
+<input type="checkbox">Coding
+<input type="checkbox">Music
+</form>
+
+<h2>50. Dropdown Selection</h2>
+<form>
+<select>
+<option>Volvo</option>
+<option>Audi</option>
+</select>
+</form>
+
+</body>
+</html>
