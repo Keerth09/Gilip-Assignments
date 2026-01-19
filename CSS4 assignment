@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All CSS Programs</title>
+<style>
+
+/* 1 All selectors */
+#special{color:red;}
+.highlight{background:lightgreen;}
+ul:nth-of-type(2){background:yellow;}
+ul+h4{border:2px solid purple;}
+a[href="http://www.google.com"]{background:yellow;}
+h1~h4{color:red;}
+div>span{background:dodgerblue;}
+
+/* 2 Attribute selector */
+a[target]{color:red;}
+
+/* 3 Attribute value */
+input[type="text"]{border:2px solid blue;}
+
+/* 4 Starts with */
+a[href^="https"]{color:green;}
+
+/* 5 Ends with */
+img[src$=".png"]{border:3px solid orange;}
+
+/* 6 Contains */
+a[href*="google"]{color:purple;}
+
+/* 7 Child selector */
+.child>p{color:blue;}
+
+/* 8 Adjacent sibling */
+h2+p{color:red;}
+
+/* 9 General sibling */
+h3~p{color:green;}
+
+/* 10 First child */
+li:first-child{color:red;}
+
+/* 11 Last child */
+li:last-child{color:blue;}
+
+/* 12 nth child */
+li:nth-child(2){color:green;}
+
+/* 13 nth last child */
+li:nth-last-child(2){color:orange;}
+
+/* 14 Only child */
+.only p:only-child{color:purple;}
+
+/* 15 First of type */
+.firstof p:first-of-type{font-weight:bold;}
+
+/* 16 Last of type */
+.lastof p:last-of-type{color:teal;}
+
+/* 17 nth of type */
+.nthof p:nth-of-type(2){color:brown;}
+
+/* 18 Empty */
+p:empty{background:yellow;height:15px;}
+
+/* 19 Not selector */
+p:not(.sp){color:gray;}
+
+/* 20 Hover */
+button:hover{background:lightblue;}
+
+/* 21 Before After */
+.beforeafter::before{content:"👉 ";}
+.beforeafter::after{content:" ✔";}
+
+/* CARD STYLES (22–31 & 42–51) */
+.row{display:flex;gap:10px;margin-bottom:10px;}
+.column{display:flex;flex-direction:column;gap:10px;}
+.card{padding:15px;background:#e6e6fa;border-radius:6px;}
+.shadow{box-shadow:2px 4px 8px rgba(0,0,0,0.3);}
+.center{justify-content:center;}
+.wrap{flex-wrap:wrap;}
+.equal{flex:1;}
+.flexcard{display:flex;flex-direction:column;justify-content:space-between;height:180px;}
+
+/* 32 Focus */
+input:focus{border:2px solid blue;}
+
+/* 33 Hover submit */
+.submit:hover{background:lightgreen;}
+
+/* 34 Disabled */
+input:disabled{background:#eee;}
+
+/* 35 Checked checkbox */
+input:checked+label{color:green;font-weight:bold;}
+
+/* 36 Radio checked */
+input[type=radio]:checked+label{background:yellow;}
+
+/* 37 Valid */
+input:valid{border:2px solid green;}
+
+/* 38 Invalid */
+input:invalid{border:2px solid red;}
+
+/* 39 Required */
+input:required{border-left:4px solid orange;}
+
+/* 40 Placeholder */
+input::placeholder{color:gray;font-style:italic;}
+
+/* 41 Focus within */
+.group:focus-within{background:#f0f8ff;padding:10px;}
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS ALL PROGRAMS</h1>
+
+<!-- 1 -->
+<ul><li>A</li><li>B</li></ul>
+<ul><li>C</li><li>D</li></ul>
+<h4>Heading</h4>
+<div>
+<span>Span</span>
+<p class="highlight">Highlight</p>
+<p id="special">Special</p>
+</div>
+<a href="http://www.google.com">Google</a>
+
+<hr>
+
+<!-- 2–6 -->
+<a href="a.html">Link</a>
+<a href="b.html" target="_blank">Target</a><br>
+<a href="https://site.com">Secure</a><br>
+<img src="img.png" width="50">
+<a href="https://google.com">Google Link</a>
+
+<hr>
+
+<!-- 7 -->
+<div class="child">
+<p>Styled</p>
+<span><p>Not styled</p></span>
+</div>
+
+<hr>
+
+<!-- 8–9 -->
+<h2>Adj</h2>
+<p>Styled</p>
+<h3>Gen</h3>
+<p>One</p>
+<p>Two</p>
+
+<hr>
+
+<!-- 10–13 -->
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ul>
+
+<hr>
+
+<!-- 14 -->
+<div class="only">
+<p>Only child</p>
+</div>
+
+<hr>
+
+<!-- 15–17 -->
+<div class="firstof">
+<p>First</p><p>Second</p>
+</div>
+<div class="lastof">
+<p>One</p><p>Last</p>
+</div>
+<div class="nthof">
+<p>A</p><p>B</p><p>C</p>
+</div>
+
+<hr>
+
+<!-- 18 -->
+<p></p>
+<p>Not empty</p>
+
+<hr>
+
+<!-- 19 -->
+<p>Normal</p>
+<p class="sp">Special</p>
+
+<hr>
+
+<!-- 20 -->
+<button>Hover me</button>
+
+<hr>
+
+<!-- 21 -->
+<p class="beforeafter">Done</p>
+
+<hr>
+
+<!-- 22 Horizontal cards -->
+<div class="row">
+<div class="card">Card 1</div>
+<div class="card">Card 2</div>
+</div>
+
+<!-- 23 Vertical cards -->
+<div class="column">
+<div class="card">A</div>
+<div class="card">B</div>
+</div>
+
+<!-- 24 Image card -->
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<p>Image card</p>
+</div>
+
+<!-- 25 Equal height -->
+<div class="row">
+<div class="card equal">Short</div>
+<div class="card equal">Long content here</div>
+</div>
+
+<!-- 26 Responsive -->
+<div class="row wrap">
+<div class="card">1</div>
+<div class="card">2</div>
+<div class="card">3</div>
+</div>
+
+<!-- 27 Centered -->
+<div class="row center">
+<div class="card">A</div>
+<div class="card">B</div>
+</div>
+
+<!-- 28 Button card -->
+<div class="card">
+<h3>Title</h3>
+<button>Read</button>
+</div>
+
+<!-- 29 Shadow -->
+<div class="card shadow">Shadow card</div>
+
+<!-- 30 Flex vertical -->
+<div class="card flexcard">
+<p>Top</p>
+<button>Bottom</button>
+</div>
+
+<!-- 31 Grid -->
+<div class="row wrap">
+<div class="card">1</div>
+<div class="card">2</div>
+<div class="card">3</div>
+</div>
+
+<hr>
+
+<!-- 32–41 Forms -->
+<input type="text" placeholder="Focus"><br><br>
+<button class="submit">Submit</button><br><br>
+<input disabled value="Disabled"><br><br>
+
+<input type="checkbox" id="c">
+<label for="c">Agree</label><br><br>
+
+<input type="radio" id="r" name="x">
+<label for="r">Option</label><br><br>
+
+<input type="email" placeholder="Email" required><br><br>
+
+<div class="group">
+<input type="text" placeholder="Focus within">
+</div>
+
+</body>
+</html>
