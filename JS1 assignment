@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All JavaScript Programs</title>
+</head>
+<body>
+
+<h1>JavaScript Programs (1–55)</h1>
+
+<script>
+/* 1. String Variable */
+document.write("<h3>1. String Variable</h3>");
+var name = "Alice";
+document.write(name);
+
+/* 2. Number Variable */
+document.write("<h3>2. Number Variable</h3>");
+let age = 25;
+document.write(age);
+
+/* 3. Boolean Variable */
+document.write("<h3>3. Boolean Variable</h3>");
+const isStudent = true;
+document.write(isStudent);
+
+/* 4. Multiple Variables */
+document.write("<h3>4. Multiple Variables</h3>");
+let x = 10, y = 20;
+document.write(x + y);
+
+/* 5. Reassign Variable */
+document.write("<h3>5. Reassign Variable</h3>");
+let city = "Delhi";
+city = "Mumbai";
+document.write(city);
+
+/* 6. Using var */
+document.write("<h3>6. Using var</h3>");
+var country = "India";
+document.write(country);
+
+/* 7. Using let */
+document.write("<h3>7. Using let</h3>");
+let language = "JavaScript";
+document.write(language);
+
+/* 8. Using const */
+document.write("<h3>8. Using const</h3>");
+const pi = 3.14159;
+document.write(pi);
+
+/* 9. String Concatenation */
+document.write("<h3>9. String Concatenation</h3>");
+let firstName = "John";
+let lastName = "Doe";
+document.write(firstName + " " + lastName);
+
+/* 10. Template Literals */
+document.write("<h3>10. Template Literals</h3>");
+let user = "Sam";
+let score = 90;
+document.write(`User ${user} scored ${score}`);
+
+/* 11. Undefined Variable */
+document.write("<h3>11. Undefined Variable</h3>");
+let data;
+document.write(data);
+
+/* 12. Null Variable */
+document.write("<h3>12. Null Variable</h3>");
+let result = null;
+document.write(result);
+
+/* 13. Arithmetic */
+document.write("<h3>13. Arithmetic</h3>");
+let a = 5, b = 3;
+document.write(a + b);
+
+/* 14. Boolean Logic */
+document.write("<h3>14. Boolean Logic</h3>");
+let isLoggedIn = false;
+document.write(!isLoggedIn);
+
+/* 15. Array Variable */
+document.write("<h3>15. Array Variable</h3>");
+let colors = ["red", "green", "blue"];
+document.write(colors[0]);
+
+/* 16. Object Variable */
+document.write("<h3>16. Object Variable</h3>");
+let person = { name: "Alice", age: 22 };
+document.write(person.name);
+
+/* 17. Change Object Property */
+document.write("<h3>17. Change Object Property</h3>");
+let car = { brand: "Toyota", year: 2020 };
+car.year = 2024;
+document.write(car.year);
+
+/* 18. Const Object */
+document.write("<h3>18. Const Object</h3>");
+const student = { name: "Raj", grade: "A" };
+student.grade = "B";
+document.write(student.grade);
+
+/* 19. Function Variable */
+document.write("<h3>19. Function Variable</h3>");
+let greet = function () {
+  return "Hello!";
+};
+document.write(greet());
+
+/* 20. Arrow Function */
+document.write("<h3>20. Arrow Function</h3>");
+const add = (x, y) => x + y;
+document.write(add(5, 7));
+
+/* 21. typeof */
+document.write("<h3>21. typeof Operator</h3>");
+let value = 42;
+document.write(typeof value);
+
+/* 22. Reassign Type */
+document.write("<h3>22. Reassign Different Type</h3>");
+let dataType = "Hello";
+dataType = 123;
+document.write(dataType);
+
+/* 23. Increment */
+document.write("<h3>23. Increment</h3>");
+let counter = 0;
+counter++;
+document.write(counter);
+
+/* 24. Decrement */
+document.write("<h3>24. Decrement</h3>");
+counter = 10;
+counter--;
+document.write(counter);
+
+/* 25. Modulus */
+document.write("<h3>25. Modulus</h3>");
+let num = 10;
+document.write(num % 3);
+
+/* 26. Greeting Message */
+document.write("<h3>26. Greeting</h3>");
+let message = "Welcome to JavaScript!";
+document.write(message);
+
+/* 27. Number Addition */
+document.write("<h3>27. Number Addition</h3>");
+let num1 = 15, num2 = 25;
+document.write(num1 + num2);
+
+/* 28. Circle Area */
+document.write("<h3>28. Circle Area</h3>");
+const PI = 3.14;
+let radius = 10;
+document.write(PI * radius * radius);
+
+/* 29. Full Name */
+document.write("<h3>29. Full Name</h3>");
+let first = "Jane", last = "Smith";
+document.write(first + " " + last);
+
+/* 30. Temperature Converter */
+document.write("<h3>30. Celsius to Fahrenheit</h3>");
+let celsius = 25;
+document.write((celsius * 9/5) + 32);
+
+/* 31. Age Calculator */
+document.write("<h3>31. Age Calculator</h3>");
+let currentYear = 2026;
+let birthYear = 2000;
+document.write(currentYear - birthYear);
+
+/* 32. Multiplication */
+document.write("<h3>32. Multiplication</h3>");
+document.write(5 * 10);
+
+/* 33. Simple Interest */
+document.write("<h3>33. Simple Interest</h3>");
+let p = 1000, r = 5, t = 2;
+document.write((p * r * t) / 100);
+
+/* 34. Boolean Display */
+document.write("<h3>34. Boolean Display</h3>");
+let isLightOn = true;
+document.write(isLightOn);
+
+/* 35. Rectangle Perimeter */
+document.write("<h3>35. Rectangle Perimeter</h3>");
+let l = 20, w = 10;
+document.write(2 * (l + w));
+
+/* 36. Remainder */
+document.write("<h3>36. Remainder</h3>");
+document.write(10 % 3);
+
+/* 37. Power */
+document.write("<h3>37. Power</h3>");
+document.write(3 ** 4);
+
+/* 38. Discount */
+document.write("<h3>38. Discount</h3>");
+document.write(200 - 50);
+
+/* 39. Average */
+document.write("<h3>39. Average</h3>");
+document.write((10 + 20 + 45) / 3);
+
+/* 40. Minutes to Seconds */
+document.write("<h3>40. Minutes to Seconds</h3>");
+document.write(10 * 60);
+
+/* 41. Swap */
+document.write("<h3>41. Swap</h3>");
+let A = "Coffee", B = "Tea";
+let temp = A; A = B; B = temp;
+document.write(A);
+
+/* 42. Square */
+document.write("<h3>42. Square</h3>");
+document.write(9 * 9);
+
+/* 43. String Length */
+document.write("<h3>43. String Length</h3>");
+document.write("JavaScript".length);
+
+/* 44. Type Check */
+document.write("<h3>44. Type Check</h3>");
+document.write(typeof 500);
+
+/* 45. Array Item */
+document.write("<h3>45. Array Item</h3>");
+let fruits = ["Apple", "Banana", "Cherry"];
+document.write(fruits[1]);
+</script>
+
+<hr>
+
+<h3>46–55 Interactive Programs</h3>
+
+<button onclick="alert('Hello from External JavaScript')">46. Alert</button><br><br>
+
+<p id="text">47. Hello</p>
+<button onclick="document.getElementById('text').innerHTML='Hello JavaScript'">Change Text</button><br><br>
+
+<button onclick="document.body.style.backgroundColor='lightblue'">48. Change Background</button><br><br>
+
+<button onclick="alert(new Date())">49. Show Date</button><br><br>
+
+<button onclick="alert(10+20)">50. Add</button><br><br>
+
+<p id="para">51. Show / Hide</p>
+<button onclick="para.style.display='none'">Hide</button>
+<button onclick="para.style.display='block'">Show</button><br><br>
+
+<button onclick="console.log('Button clicked')">53. Console Log</button><br><br>
+
+<input id="nameInput" placeholder="Enter name">
+<button onclick="alert('Hello ' + nameInput.value)">54. Greet</button><br><br>
+
+<input id="numInput" type="number">
+<button onclick="alert(numInput.value % 2 == 0 ? 'Even' : 'Odd')">55. Even/Odd</button>
+
+</body>
+</html>
