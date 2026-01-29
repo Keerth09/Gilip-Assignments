@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Operators – All Programs</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  padding: 20px;
+}
+h1 { color: #007acc; }
+h2 { margin-top: 30px; }
+.output {
+  background: #eef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: monospace;
+}
+</style>
+</head>
+
+<body>
+
+<h1>JavaScript Programs – Operators</h1>
+
+<h2>Arithmetic Operators</h2>
+
+<div class="output">1. Addition: 10 + 5 = <script>document.write(10+5)</script></div>
+<div class="output">2. Subtraction: 10 - 5 = <script>document.write(10-5)</script></div>
+<div class="output">3. Multiplication: 10 * 5 = <script>document.write(10*5)</script></div>
+<div class="output">4. Division: 10 / 5 = <script>document.write(10/5)</script></div>
+<div class="output">5. Modulus: 10 % 3 = <script>document.write(10%3)</script></div>
+
+<div class="output">6. Increment:
+<script>
+let inc = 5;
+inc++;
+document.write(inc);
+</script>
+</div>
+
+<div class="output">7. Decrement:
+<script>
+let dec = 5;
+dec--;
+document.write(dec);
+</script>
+</div>
+
+<div class="output">8. Simple Calculator (20 + 10) = <script>document.write(20+10)</script></div>
+
+<h2>Relational (Comparison) Operators</h2>
+
+<div class="output">9. Greater Than (10 > 5): <script>document.write(10 > 5)</script></div>
+<div class="output">10. Less Than (10 < 5): <script>document.write(10 < 5)</script></div>
+<div class="output">11. Equal To (10 == 10): <script>document.write(10 == 10)</script></div>
+<div class="output">12. Strict Equal (10 === "10"): <script>document.write(10 === "10")</script></div>
+<div class="output">13. Not Equal (10 != 5): <script>document.write(10 != 5)</script></div>
+<div class="output">14. Greater Than or Equal (10 >= 10): <script>document.write(10 >= 10)</script></div>
+
+<h2>Logical Operators</h2>
+
+<div class="output">15. Logical AND (true && false): <script>document.write(true && false)</script></div>
+<div class="output">16. Logical OR (true || false): <script>document.write(true || false)</script></div>
+<div class="output">17. Logical NOT (!false): <script>document.write(!false)</script></div>
+
+<div class="output">18. Age Check (20 > 18 && 20 < 30):
+<script>
+let age = 20;
+document.write(age > 18 && age < 30);
+</script>
+</div>
+
+<div class="output">19. OR Condition (5 > 10 || 5 < 10):
+<script>
+let a = 5;
+document.write(a > 10 || a < 10);
+</script>
+</div>
+
+<div class="output">20. Login Validation:
+<script>
+let user = "admin";
+let pass = "1234";
+document.write(user == "admin" && pass == "1234");
+</script>
+</div>
+
+<div class="output">21. Eligibility Check:
+<script>
+let ag = 18;
+document.write(ag >= 18 || ag == 17);
+</script>
+</div>
+
+<div class="output">22. Combined Operators:
+<script>
+let x = 10, y = 5;
+document.write((x > y) && (x + y > 10));
+</script>
+</div>
+
+<h2>Extra Arithmetic Examples</h2>
+
+<div class="output">23. 5 + 2 = <script>document.write(5+2)</script></div>
+<div class="output">24. 5 - 2 = <script>document.write(5-2)</script></div>
+<div class="output">25. 5 * 2 = <script>document.write(5*2)</script></div>
+<div class="output">26. 5 / 2 = <script>document.write(5/2)</script></div>
+<div class="output">27. 5 % 2 = <script>document.write(5%2)</script></div>
+
+</body>
+</html>
